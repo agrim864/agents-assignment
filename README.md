@@ -164,7 +164,6 @@ This repo uses uv (pyproject.toml is the source of truth). You do not need requi
 
 ### 2) Run the agent
 Option A (recommended): uv
-```bash
 uv sync --dev
 uv run examples/voice_agents/basic_agent.py
 
@@ -174,4 +173,5 @@ source .venv/bin/activate
 pip install -U pip
 pip install -r requirements.txt
 python examples/voice_agents/basic_agent.py
+
 
