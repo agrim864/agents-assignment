@@ -162,15 +162,16 @@ This repo uses uv (pyproject.toml is the source of truth). You do not need requi
 - cartesia tts
 - requests, python-dotenv
 
-2) Run the agent
-# Option A (recommended): uv
+### 2) Run the agent
+Option A (recommended): uv
 ```bash
 uv sync --dev
 uv run examples/voice_agents/basic_agent.py
 
-# Option B: pip + venv (fallback)
+Option B: pip + venv (fallback)
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -U pip
 pip install -r requirements.txt
 python examples/voice_agents/basic_agent.py
+
